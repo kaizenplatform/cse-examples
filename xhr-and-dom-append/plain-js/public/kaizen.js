@@ -13,6 +13,10 @@
       //var url =
       //  "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/places-fail.json?20200910";
 
+      // API response 0 件パターン
+      //var url =
+      //  "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/places-zero.json?20200910";
+
       $.get(url)
         .done(function (r) {
           console.log("xhr done", r);
@@ -28,7 +32,7 @@
   // U/I を表示
   var render = function (places) {
     console.log("places", places);
-    if (places.length === 0) return;
+    if (places.length === 0) return 0;
 
     _applyStyle();
     var $w = $(`<div class="inner-form kz"></div>`).insertAfter(".inner-form");
