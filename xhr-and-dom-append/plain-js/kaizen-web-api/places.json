@@ -12,8 +12,8 @@
       "id": 492,
       "name": "テナヤ",
       "country": "米国 カリフォルニア州",
-      "image": "tenaya.jpg",
-      "googleMap": "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/images/tenaya.jpg"
+      "image": "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/images/tenaya.jpg",
+      "googleMap": "https://bit.ly/2R5XObk"
     },
     {
       "id": 234,

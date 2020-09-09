@@ -35,6 +35,8 @@
     <script>
       // Kaizen タグが遅延して読み込まれる動作を emulate
       setTimeout(function () {
+        if (location.search.match(/kaizen=off/)) return;
+        console.log("kaizen.js loading");
         $.getScript("kaizen.js");
       }, 1000);
     </script>
