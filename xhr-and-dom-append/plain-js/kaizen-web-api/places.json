@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "places": [
+    {
+      "id": 138,
+      "name": "ポートランド",
+      "country": "米国 オレゴン州",
+      "image": "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/images/portland.jpg",
+      "googleMap": "https://bit.ly/32aKgBF"
+    },
+    {
+      "id": 492,
+      "name": "テナヤ",
+      "country": "米国 カリフォルニア州",
+      "image": "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/images/tenaya.jpg",
+      "googleMap": "https://bit.ly/2R5XObk"
+    },
+    {
+      "id": 234,
+      "name": "セドナ",
+      "country": "米国 アリゾナ州",
+      "image": "https://storage.googleapis.com/kaizen-cse-public/cse-examples/xhr-and-dom-append/plain-js/kaizen-web-api/images/sedona.jpg",
+      "googleMap": "https://bit.ly/3ienG0p"
+    }
+  ]
+}
