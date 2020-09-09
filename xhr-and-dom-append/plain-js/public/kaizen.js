@@ -37,7 +37,7 @@
       $(`
         <div class="kz-item">
           <div class="kz-image">
-            <img src=${p.image} width="60"/>
+            <img src=${p.image} />
           </div>
           <div class="kz-desc">
             <div class="kz-name">
@@ -74,6 +74,10 @@
         float: left;
       }
 
+      .kz-image img {
+        width: 100px;
+      }
+
       .kz-desc {
         float: left;
         margin-left: 10px;
@@ -87,6 +91,10 @@
 
         .kz-item {
           margin-bottom: 10px;
+        }
+
+        .kz-image img {
+          width: 60px;
         }
       }
     `;
