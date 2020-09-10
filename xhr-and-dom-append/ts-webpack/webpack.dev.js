@@ -5,10 +5,7 @@ module.exports = merge(common, {
   mode: "development",
   devtool: "inline-source-map",
   devServer: {
-    contentBase: "dist",
+    contentBase: "public",
     compress: true,
-  },
-  output: {
-    filename: "[name].dev.js",
   },
 });

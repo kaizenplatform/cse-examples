@@ -1,6 +1,4 @@
 const path = require("path");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const fileLoaderOpt = {
   regExp: /src\/(.+)\/[^/]+\.[^/]+$/,
@@ -9,19 +7,13 @@ const fileLoaderOpt = {
 
 module.exports = {
   entry: {
-    bundle: "src/index.ts",
+    bundle: "src/kaizen.ts",
   },
   resolve: {
     modules: [path.resolve(__dirname), "node_modules"],
     extensions: [".ts", ".tsx", ".js"],
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({
-      filename: "index.html",
-      template: "src/index.html",
-    }),
-  ],
+  plugins: [],
   module: {
     rules: [
       {
@@ -42,5 +34,9 @@ module.exports = {
   },
   optimization: {
     moduleIds: "hashed",
+  },
+  output: {
+    path: path.resolve(__dirname, "public"),
+    filename: "kaizen.js",
   },
 };
