@@ -4,6 +4,7 @@
   "compilerOptions": {
     // project options
     "module": "es6",
+    "moduleResolution": "node",
     "removeComments": false,
     "sourceMap": true,
     "target": "es6",

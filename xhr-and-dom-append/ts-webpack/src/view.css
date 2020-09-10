@@ -1,0 +1,43 @@
+.s01 form .inner-form.kz {
+  margin-top: 20px;
+}
+
+.kz-item {
+  width: 100%;
+  clear: both;
+  color: white;
+}
+
+.kz-name a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+.kz-image {
+  float: left;
+}
+
+.kz-image img {
+  width: 100px;
+}
+
+.kz-desc {
+  float: left;
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 767px) {
+  .s01 form .inner-form.kz {
+    padding-bottom: 10px;
+  }
+
+  .kz-item {
+    margin-bottom: 10px;
+  }
+
+  .kz-image img {
+    width: 60px;
+  }
+}
