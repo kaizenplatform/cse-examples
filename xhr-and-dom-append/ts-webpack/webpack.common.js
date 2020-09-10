@@ -37,6 +37,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "public"),
-    filename: "kaizen.js",
+    filename: "kaizen.bundle.js",
   },
 };
