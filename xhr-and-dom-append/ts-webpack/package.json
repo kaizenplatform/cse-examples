@@ -25,6 +25,7 @@
     "@types/mocha": "^7.0.2",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
+    "axios": "^0.20.0",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
@@ -43,5 +44,6 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4"
-  }
+  },
+  "dependencies": {}
 }

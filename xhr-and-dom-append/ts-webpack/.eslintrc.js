@@ -17,5 +17,6 @@ module.exports = {
   ],
   rules: {
     "@typescript-eslint/no-explicit-any": "off", // any は許可でまずやってみよ
+    "no-debugger": "warn",
   },
 };
